@@ -1,0 +1,49 @@
+{
+    "muziek": {
+      "pad1":{
+        "nummer":"Jocelyn Flores",
+        "artiest": "XXXTentacion",
+        "lengte": "1 minuut 57 seconden",
+        "release": "25 augustus 2017",
+        "filename": "Jocelyn Flores.m4a"
+      },
+      "pad2":{
+        "nummer":"Satisfy My Soul",
+        "artiest":"Bob Marley",
+        "lengte": "4 minuut 38 seconden",
+        "release": "22 juni 1976",
+        "filename": "Satisfy My Soul.mp3"
+      },
+      "pad3":{
+        "nummer":"Dang!",
+        "artiest":"Mac Miller ft. Anderson .Paak",
+        "lengte":  "5 minuut 5 seconden",
+        "release": "28 juli 2016",
+        "filename": "Dang.mp3"        
+      },
+      "pad4":{
+        "nummer":"I Get Around",
+        "artiest":"Tupac",
+        "lengte": "3 minuut 49 seconden",
+        "release": "10 juni 1993",
+        "filename": "I Get Around.mp3"
+      },
+      "pad5":{
+         "nummer":"The Town",
+        "artiest":"Macklemore",
+         "lengte": "5 minuut 43 seconden",
+        "release": "7 september 2009",
+        "filename": "The Town.mp3"
+          },
+      "pad6":{
+      "nummer":"Some Trust",
+      "artiest":"The Fray",
+      "lengte": "2 minuut 52 seconden",
+      "release": "31 augustus 2003",
+      "filename": "Some trust.mp3"
+        }
+            
+        
+          }
+  }
+  

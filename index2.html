@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tap Music</title>
+  </head>
+  <body>
+    <section class="app">
+      <header>
+        <h1>Tap Music</h1>
+        <p>Klik op een box om een nummer af te spelen!</p><br><center>
+        <input class ="btn" id="stopButton" type="button" value="Stop De muziek" />
+      </center>
+        
+        <ul id="muziek"></ul>
+      </header>
+      <div class="visual"></div>
+      <div class="pads">
+        <div class="pad1">
+          <audio class="sound" src="./sounds/Jocelyn Flores.m4a" >
+          </audio>
+        </div>
+        <div class="pad2">
+          <audio class="sound">
+            <source src="./sounds/Satisfy My Soul.mp3"  />
+          </audio>
+        </div>
+        <div class="pad3">
+          <audio class="sound">
+            <source src="./sounds/Dang.mp3" />
+          </audio>
+        </div>
+        <div class="pad4">
+          <audio class="sound">
+            
+            <source src="./sounds/I Get Around.mp3" />
+          </audio>
+        </div>
+        <div class="pad5">
+          <audio class="sound">
+            <source src="./sounds/The Town.mp3" />
+          </audio>
+        </div>
+        <div class="pad6">
+          <audio class="sound">
+            <source src="./sounds/Some trust.mp3" />
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body onload="addEventListener()">
+</html>
