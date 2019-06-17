@@ -3,6 +3,6 @@ Met deze app kan je muziek luisteren, als je op een div klikt zal hij JSON gegev
 ook zal hij een nummer afspelen. je kan ten alle tijden de muziek player stoppen.
 
 <h2>Compatibiliteit</h2>
-Deze javascript app is getest in Chrome, het kan zijn dat het bij andere browsers niet 100% werkt.
+Deze javascript app is getest in Chrome, het kan zijn dat het bij andere browsers niet 100% werkt, zo kan de muziek door elkaar gaan als je op verschillende divs klikt.
 
 
