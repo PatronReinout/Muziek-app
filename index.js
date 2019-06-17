@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
 			var xhttp = new XMLHttpRequest();
 			xhttp.onreadystatechange = function() {
 				if (this.readyState == 4 && this.status == 200) {
-					var response = JSON.parse(xhttp.responseText); //maakt verbinding met de json file
+					var response = JSON.parse(xhttp.responseText); //zet de json tekst om in normale tekst
 					var muziek = response.muziek;
 
 					var output = ""; //output wordt veranderd als er een pad wordt aangeklikt je ziet dan de info van het nummer
@@ -64,7 +64,7 @@ window.addEventListener("load", () => {
 		bubble.style.backgroundColor = colors[index]; //pakt een kleur uit de array
 		bubble.style.animation = `jump 1s ease`;
 		bubble.addEventListener("animationend", function() {
-			visual.removeChild(this);
+			visual.removeChild(this); //zorg dat de bubble weer wordt verwijderd
 		});
 	};
 });
